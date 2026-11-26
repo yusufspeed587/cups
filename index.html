@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Senja | Premium Coffee Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#" class="logo">
+            <span class="logo-icon">☕</span>
+            KOPI <span>SENJA</span>
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="Buka menu">
+            ☰
+        </button>
+
+        <nav id="nav-menu">
+            <a href="#beranda">Beranda</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#produk">Menu Kami</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+
+        <a href="#produk" class="nav-button">Jelajahi Menu ↗</a>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="beranda">
+        <div class="hero-content">
+            <span class="subtitle">✦ PREMIUM LOCAL COFFEE</span>
+
+            <h1>
+                Nikmati Setiap
+                <span>Tetes Kebahagiaan</span>
+            </h1>
+
+            <p>
+                Secangkir kopi istimewa dari biji kopi pilihan
+                Nusantara. Temukan rasa, aroma, dan pengalaman
+                terbaik dalam setiap tegukan.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#produk" class="btn-primary">
+                    Jelajahi Menu →
+                </a>
+
+                <button id="tombol-promo" class="btn-outline">
+                    ✨ Lihat Promo
+                </button>
+            </div>
+
+            <div id="info-promo" class="promo-message"></div>
+
+            <div class="hero-info">
+                <div>
+                    <h3>100%</h3>
+                    <span>Biji Kopi Pilihan</span>
+                </div>
+                <div>
+                    <h3>Fresh</h3>
+                    <span>Disangrai Segar</span>
+                </div>
+                <div>
+                    <h3>Premium</h3>
+                    <span>Kualitas Terbaik</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1000"
+                alt="Kopi premium Kopi Senja">
+            <div class="image-label">
+                <span>☕</span>
+                <div>
+                    <strong>Made With Love</strong>
+                    <small>Fresh Coffee Everyday</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="tentang">
+        <div class="about-icon">✦</div>
+        <span class="section-subtitle">CERITA KAMI</span>
+        <h2>Lebih Dari Sekadar <span>Secangkir Kopi</span></h2>
+        <p>
+            Kopi Senja hadir untuk menemani setiap cerita dan
+            perjalananmu. Kami menghadirkan kopi berkualitas
+            dengan bahan pilihan, cita rasa istimewa, dan
+            suasana yang membuat setiap momen lebih bermakna.
+        </p>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="products" id="produk">
+        <div class="section-heading">
+            <div>
+                <span class="section-subtitle">OUR SPECIAL MENU</span>
+                <h2>Menu <span>Andalan Kami</span></h2>
+            </div>
+            <p>
+                Pilihan terbaik untuk menemani
+                aktivitas dan waktu santaimu.
+            </p>
+        </div>
+
+        <div class="product-grid">
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=700"
+                         alt="Kopi Susu Gula Aren">
+                    <span class="product-tag">BEST SELLER</span>
+                </div>
+
+                <div class="product-content">
+                    <span class="product-category">SIGNATURE COFFEE</span>
+                    <h3>Kopi Susu Gula Aren</h3>
+                    <p>
+                        Perpaduan espresso seimbang, susu segar,
+                        dan manisnya gula aren asli.
+                    </p>
+
+                    <div class="product-bottom">
+                        <strong>Rp22.000</strong>
+                        <a href="#" class="order-button"
+                           data-product="Kopi Susu Gula Aren">
+                            Pesan +
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=700"
+                         alt="Americano Hangat">
+                    <span class="product-tag">FAVORITE</span>
+                </div>
+
+                <div class="product-content">
+                    <span class="product-category">CLASSIC COFFEE</span>
+                    <h3>Americano Hangat</h3>
+                    <p>
+                        Karakter rasa cokelat dan karamel lembut,
+                        cocok untuk menemani harimu.
+                    </p>
+
+                    <div class="product-bottom">
+                        <strong>Rp18.000</strong>
+                        <a href="#" class="order-button"
+                           data-product="Americano Hangat">
+                            Pesan +
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=700"
+                         alt="Croissant Mentega">
+                    <span class="product-tag">FRESH DAILY</span>
+                </div>
+
+                <div class="product-content">
+                    <span class="product-category">FRESH BAKERY</span>
+                    <h3>Croissant Mentega</h3>
+                    <p>
+                        Renyah di luar dan lembut di dalam,
+                        dipanggang segar setiap pagi.
+                    </p>
+
+                    <div class="product-bottom">
+                        <strong>Rp25.000</strong>
+                        <a href="#" class="order-button"
+                           data-product="Croissant Mentega">
+                            Pesan +
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- PROMO BANNER -->
+    <section class="promo-section">
+        <div>
+            <span class="section-subtitle">SPECIAL OFFER</span>
+            <h2>Momen Spesial, <span>Harga Istimewa!</span></h2>
+            <p>
+                Nikmati diskon 15% untuk pembelian
+                2 gelas Kopi Susu Gula Aren sebelum pukul 11.00 WIB.
+            </p>
+        </div>
+
+        <a href="#produk" class="btn-primary">Lihat Menu Sekarang →</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="kontak">
+        <div class="footer-content">
+            <div>
+                <a href="#" class="logo footer-logo">
+                    ☕ KOPI <span>SENJA</span>
+                </a>
+                <p>
+                    Menghadirkan kehangatan dan kenikmatan
+                    dalam setiap cangkir kopi.
+                </p>
+            </div>
+
+            <div>
+                <h3>Hubungi Kami</h3>
+                <p>Jl. Melati No. 12, Jakarta</p>
+                <p>Jam Operasional: 07.00–21.00 WIB</p>
+            </div>
+
+            <div>
+                <h3>Navigasi</h3>
+                <a href="#beranda">Beranda</a>
+                <a href="#tentang">Tentang Kami</a>
+                <a href="#produk">Menu Kopi</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            © 2026 Kopi Senja. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
